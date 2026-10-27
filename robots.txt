@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.vectorgroupsrl.com/sitemap.xml

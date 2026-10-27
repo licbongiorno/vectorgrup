@@ -18,6 +18,13 @@ if (menuToggle && mainNav) {
   });
 }
 
+const siteHeader = document.querySelector(".site-header");
+if (siteHeader) {
+  const updateHeader = () => siteHeader.classList.toggle("is-scrolled", window.scrollY > 24);
+  updateHeader();
+  window.addEventListener("scroll", updateHeader, { passive: true });
+}
+
 const yearElement = document.querySelector("#current-year");
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
