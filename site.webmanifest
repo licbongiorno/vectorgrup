@@ -1,0 +1,12 @@
+{
+  "name": "VectorGroup SRL",
+  "short_name": "VectorGroup",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09152d",
+  "theme_color": "#09152d",
+  "icons": [
+    { "src": "assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
